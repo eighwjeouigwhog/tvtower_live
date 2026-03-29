@@ -1,40 +1,10 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
+  <head>
     <meta charset="UTF-8">
-    <title>テレビ塔 - フルスクリーン表示</title>
-    <style>
-        /* 余白を消して、画面の高さを100%に固定する */
-        body, html {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-            width: 100%;
-            overflow: hidden; /* スクロールバーを隠す */
-            background-color: #000; /* 背景を黒にする */
-        }
-
-        /* iframeを画面いっぱいに広げる */
-        .fullscreen-video {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            border: none;
-        }
-    </style>
-</head>
-<body>
-
-    <iframe 
-        class="fullscreen-video"
-        src="https://www.youtube.com/embed/kfIQBC0hrII?si=I-oT2XfeN53T0So0&autoplay=1&mute=1&loop=1&playlist=kfIQBC0hrII" 
-        title="YouTube video player" 
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-        referrerpolicy="strict-origin-when-cross-origin" 
-        allowfullscreen>
-    </iframe>
-
-</body>
+    <title>テレビ塔</title>
+  </head>
+  <body>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kfIQBC0hrII?si=I-oT2XfeN53T0So0&autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </body>
 </html>
